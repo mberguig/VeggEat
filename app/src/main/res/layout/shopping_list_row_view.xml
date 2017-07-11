@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/shoppingList_image"
+        android:layout_width="65dp"
+        android:layout_height="70dp"
+        tools:background="@drawable/ic_wallpaper"/>
+
+    <TextView
+        android:id="@+id/shopping_list_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/shoppingList_image"
+        android:layout_alignTop="@+id/shoppingList_image"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/shopping_list_createdDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_alignLeft="@+id/shopping_list_name"
+        android:layout_below="@+id/shopping_list_name"
+        android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_edit_SL"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignTop="@+id/shoppingList_image"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_action_edit"
+            android:textAlignment="center"
+            android:focusable="false"
+            android:text="" />
+
+            <Button
+                android:id="@+id/button_delete_SL"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:textAlignment="center"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/button_edit_SL"
+                android:background="@drawable/ic_delete"
+                android:focusable="false"
+                android:layout_alignParentRight="true"
+                android:text=""/>
+
+
+
+</RelativeLayout>

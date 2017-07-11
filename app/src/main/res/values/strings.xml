@@ -1,4 +1,66 @@
 <resources>
-    <string name="app_name">VeggEat</string>
-    <string name="title_activity_maps">Map</string>
+    <string name="app_name">Ordory</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_userspace">Home</string>
+    <string name="action_login">Connexion</string>
+    <string name="action_list">Mes listes de shopping</string>
+    <string name="action_addList">Ajouter une liste</string>
+    <string name="action_register">Inscription</string>
+    <string name="action_logout">Déconnexion</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="myspace_title">Mon compte</string>
+
+    <!-- Values to connect to the API-->
+    <string name="ws_urlConnect">http://appspaces.fr/esgi/shopping_list/account/login.php</string>
+    <string name="ws_urlSubscribe">http://appspaces.fr/esgi/shopping_list/account/subscribe.php</string>
+
+    <string name="ws_urlProductCreate">http://appspaces.fr/esgi/shopping_list/product/create.php</string>
+    <string name="ws_urlProductEdit">http://appspaces.fr/esgi/shopping_list/product/edit.php</string>
+    <string name="ws_urlProductList">http://appspaces.fr/esgi/shopping_list/product/list.php</string>
+    <string name="ws_urlProductRemove">http://appspaces.fr/esgi/shopping_list/product/remove.php</string>
+
+    <string name="ws_urlShoppingListCreate">http://appspaces.fr/esgi/shopping_list/shopping_list/create.php</string>
+    <string name="ws_urlShoppingListEdit">http://appspaces.fr/esgi/shopping_list/shopping_list/edit.php</string>
+    <string name="ws_urlShoppingListList">http://appspaces.fr/esgi/shopping_list/shopping_list/list.php</string>
+    <string name="ws_urlShoppingListRemove">http://appspaces.fr/esgi/shopping_list/shopping_list/remove.php</string>
+
+    <!-- String View -->
+    <string name="btn_edit">Modifier</string>
+    <string name="text_connect_page_help">Connexion</string>
+    <string name="text_titleApp">Ordory</string>
+    <string name="btn_connect">Connexion</string>
+    <string name="text_connect_page">Connexion</string>
+    <string name="btn_send">Enregistrer</string>
+    <string name="txt_pub_userspace">Gérez vos listes de courses</string>
+    <string name="txt_count_userspace">liste(s)</string>
+    <string name="slogan">Commander librement</string>
+
+
+    <!-- String for list shopping list view-->
+    <string name="list_shoppinglist_title">Mes listes de course</string>
+    <string name="totalPrice">Prix total : </string>
+
+
+    <!-- Menu String -->
+    <string name="menu_shoppinglist_search">Rechercher</string>
+    <string name="menu_shoppinglist_refresh">Actualiser</string>
+    <string name="menu_shoppinglist_add">Ajouter</string>
+    <string name="list_shoppinglist_detail_title">Produits de ma liste</string>
+    <string name="add_shppinglist_title">Ajout nouvelle liste</string>
+    <string name="update_shoppinglist_title">Modification de la liste</string>
+
+    <!-- Product form value -->
+    <string name="add_product">Ajout d\'un produit</string>
+    <string name="edit_product">Modification d\'un produit</string>
+    <string name="product_name">Nom du produit</string>
+    <string name="product_price">Prix du produit</string>
+    <string name="product_quantity">Quantité</string>
+    <string name="title_activity_shop">ShopActivity</string>
+
 </resources>
